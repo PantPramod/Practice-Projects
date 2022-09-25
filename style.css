@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+ background-color: blue;
+ color: white;
+ padding: 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+
+nav ul li{
+    margin-right: 30px;
+}
+
+
+section{
+   background-color: rgba(199, 212, 212, 0.719);
+   display: flex;
+   padding: 20px;
+}
+
+section img{
+    padding: 10px;
+    border-radius: 15px
+}
+section p{
+    padding: 10px;
+}
+
+footer{
+   background-color: rgba(27, 22, 22, 0.829);
+   padding: 50px;
+   color: white;
+   
+}
+
+footer p{
+    text-align: right;
+}
